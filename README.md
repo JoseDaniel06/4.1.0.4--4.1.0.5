@@ -5,6 +5,14 @@ Para esta entrega se realiza un nuevo ejecutable, en este se arreglan dos bugs r
 
 ![alt text](image.png)
 
+
+# Instalar aplicación
+Para realizar la aplicación de esta entrega se debe descargar el archivo .exe y reemplazarlo en la carpeta donde se tiene instalador el ORM, dejando solo el nuevo archivo.
+![alt text](image-1.png)
+
+Dar clic en reemplazar y se inicia el aplicativo con normalidad.
+
+
 # Bugs corregidos en v4.1.0.5
 Enero 3 2018 - Versión 4.1.0.5:   
 •	Se ajusta manejo del nombre del archivo generado por tareas programadas, dado que si este nombre de archivo contenía uno o varios caracteres “.” la función de .NET que devuelve el nombre del archivo sin extensión solo tomaba hasta el primer punto y descartaba el resto del texto. Se incluye una mejora en el método que devuelve la variable Archivo de la forma frmEditTareaPost.cs para remplazar la línea:
